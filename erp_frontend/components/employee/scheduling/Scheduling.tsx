@@ -1,6 +1,11 @@
 /**
  * Template credit: https://material-ui.com/getting-started/templates/
  */
+/*
+
+This React component is a scheduling dashboard for managing machines in different plants. It allows users to select a plant, view machine scheduling information, and force stop machines if needed. It fetches data from the server using API calls and displays the machine details in a table format. It provides functionality to control and monitor machine operations efficiently.
+*/
+
 
 import React, {useState ,useEffect} from "react";
 import { makeStyles } from "@material-ui/core/styles";
