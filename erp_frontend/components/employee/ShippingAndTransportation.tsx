@@ -1,3 +1,8 @@
+/*This React functional component represents a shipping and transportation dashboard. It fetches data from an API (using the `getLedger` function) and
+displays the information in separate tables based on the status of the orders (received, packaged, in transit, delivered). 
+Each table includes order details such as the order ID, client name, price, and number of bikes.
+The component utilizes Material-UI for styling and creates a responsive layout using Grid and Paper components.
+*/
 import React, { useState, useEffect } from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Grid from "@material-ui/core/Grid";
